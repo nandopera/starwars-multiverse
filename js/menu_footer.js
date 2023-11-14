@@ -18,11 +18,11 @@ rodape.insertAdjacentHTML(
   "afterbegin",
   `
     <ul class="nav justify-content-center pb-3 mb-3 border-color">
-      <li class="nav-item"><a href="#" class="nav-link px-2 footer-txt">Filmes</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 footer-txt">Personagens</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 footer-txt">Planetas</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 footer-txt">Veículos</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 footer-txt">Naves</a></li>
+      <li class="nav-item"><a href="./index.html"" class="nav-link-wars px-2 footer-txt">Filmes</a></li>
+      <li class="nav-item"><a href="./personagens.html" class="nav-link-wars px-2 footer-txt">Personagens</a></li>
+      <li class="nav-item"><a href="./planetas.html" class="nav-link-wars px-2 footer-txt">Planetas</a></li>
+      <li class="nav-item"><a href="./veiculos.html" class="nav-link-wars px-2 footer-txt">Veículos</a></li>
+      <li class="nav-item"><a href="./naves.html" class="nav-link-wars px-2 footer-txt">Naves</a></li>
     </ul>
     <p class="text-center footer-txt">© 2023 Grupo Poderoso, Inc</p>
   `
