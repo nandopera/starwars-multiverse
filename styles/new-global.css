@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Roboto:wght@400;700&display=swap");
 @import "./variables.css";
 
+
 * {
   margin: 0;
   padding: 0;
@@ -9,19 +10,12 @@
 }
 
 body {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   background-color: var(--bkg-bg);
 }
 
 /* --------------------------------Header------------------------------------ */
 
-/* #banner {
-  height: 100vh;
-  width: 100%;
-  background-image: var(--bkg-index);
-  background-position: top left;
-  background-repeat: no-repeat;
-  background-size: 100% auto;
-} */
 
 .menu {
   display: flex;
@@ -43,11 +37,11 @@ que serve para definir três possíveis tamanhos. No geral o valor do meio é o 
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.5));
 }
 
 picture {
   position: relative;
- /*  margin-bottom: -20px; */
   margin-left: 10vw;
 }
 
@@ -55,28 +49,6 @@ picture > .logo-star-wars {
   position: relative;
   width: clamp(80px, 10vw, 15vw);
   /* aspect-ratio: 16/9; */
-}
-
-
-/* picture::after {
-  content: "UNIVERSE";
-  position: absolute;
-  top: 20vh;
-  left: 8vw;
-  font-family: Roboto, Helvetica, sans-serif;
-  color: var(--emphesis-color);
-  font-size: clamp(.8rem, 1.5vw, 5vw);
-  margin: .5rem 10vw 0 10vw;
-} */
-
-div>h3.universe {
-  position: absolute;
-  font-family: Roboto, Helvetica, sans-serif;
-  font-size: clamp(14px, 1.8vw, 4vw);
-  color: var(--emphesis-color);
-  margin-left: calc(10vw + 1rem);
-  top: clamp(5vh, 13vh, 25vh);
-  /* margin-top: clamp(-10px, -1rem, -20px); */
 }
 
         /* --------------------------Menu------------------------------ */
@@ -90,7 +62,8 @@ li {
   font-size: clamp(0.6rem, 2vw, 1.3rem);
   margin: 0 clamp(0.2rem, 1vw, 1.5rem);
   list-style: none;
-  font-family: roboto;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  letter-spacing: .15rem;
   font-weight: 400;
   cursor: pointer;
 }
@@ -123,16 +96,18 @@ a:active {
 
 .title {
   font-size: clamp(50px, 10vw, 88px);
-  font-family: roboto;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-weight: bold;
   color: var(--emphesis-color);
+  filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.5));
 }
 
 .description {
   font-size: clamp(0.7rem, 2vw, 24px);
-  font-family: poppins;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-weight: 400;
   color: var(--common-color);
+  filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.5));
 }
 
 /* --------------------------------Conteúdo------------------------------------ */
@@ -173,7 +148,7 @@ main {
   display: flex;
   flex-direction: column;
   line-height: 1rem;
-  font-family: roboto;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   width: 100%;
   max-height: 500px;
   background-color: var(--bkg-info);
@@ -184,7 +159,7 @@ main {
 
 p {
   font-size: clamp(0.5rem, 0.8rem, 4vw);
-  font-family: roboto;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   color: var(--common-color);
 }
 
@@ -200,7 +175,7 @@ h3 {
 
 .card-title {
   text-transform: uppercase;
-  font-family: roboto;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-size: 1.4rem;
   line-height: 3rem;
   color: var(--emphesis-color);
@@ -208,7 +183,7 @@ h3 {
 
 .info-title {
   font-size: 1rem;
-  font-family: roboto;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   color: var(--common-color);
   text-transform: uppercase;
   position: relative;
@@ -226,7 +201,8 @@ h3 {
 /* --------------------------------Footer------------------------------------ */
 
 footer {
-  font-family: Roboto;
+  letter-spacing: .1rem;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-size: 1rem;
   width: 100%;
   color: var(--common-color);
