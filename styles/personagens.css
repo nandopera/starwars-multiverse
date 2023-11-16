@@ -9,7 +9,7 @@
   background-size: 100% auto;
 }
 
-.personagens__section {
+/* .personagens__section {
     background-image: url(./assets/img/personagens-card-background.png);
     width: 1260px;
     height: 600px;
@@ -18,13 +18,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-}
-.personagens__section1__img {
+} */
+/* .personagens__section1__img {
     height: auto;
     width: 35%;
-}
+} */
 
-.card-title1 {
+/* .card-title1 {
     color: var(--emphesis-color);
     font-family: Roboto;
     font-size: 40px;
@@ -33,9 +33,9 @@
     line-height: normal;
     letter-spacing: -0.8px;
     text-transform: uppercase;
-}
+} */
 
-.personagem-info-title1 {
+/* .personagem-info-title1 {
     color: var(--common-color);
     font-family: Roboto;
     font-size: 32px;
@@ -44,14 +44,14 @@
     line-height: normal;
     letter-spacing: -0.64px;
     text-transform: uppercase;
-}
+} */
 
-.personagens__section2__img {
+/* .personagens__section2__img {
     height: auto;
-    width: 35%;
-}
+    width: 50%;
+} */
 
-.card-title2 {
+/* .card-title2 {
     color: var(--emphesis-color);
     font-family: Roboto;
     font-size: 40px;
@@ -60,9 +60,9 @@
     line-height: normal;
     letter-spacing: -0.8px;
     text-transform: uppercase;
-}
+} */
 
-.personagem-info-title2 {
+/* .personagem-info-title2 {
     color: var(--common-color);
     font-family: Roboto;
     font-size: 32px;
@@ -71,14 +71,14 @@
     line-height: normal;
     letter-spacing: -0.64px;
     text-transform: uppercase;
-}
+} */
 
-.personagens__section3__img {
+/* .personagens__section3__img {
     height: auto;
     width: 35%;
-}
+} */
 
-.card-title3 {
+/* .card-title3 {
     color: var(--emphesis-color);
     font-family: Roboto;
     font-size: 40px;
@@ -87,9 +87,9 @@
     line-height: normal;
     letter-spacing: -0.8px;
     text-transform: uppercase;
-}
+} */
 
-.personagem-info-title3 {
+/* .personagem-info-title3 {
     color: var(--common-color);
     font-family: Roboto;
     font-size: 32px;
@@ -98,4 +98,4 @@
     line-height: normal;
     letter-spacing: -0.64px;
     text-transform: uppercase;
-}
+} */

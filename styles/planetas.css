@@ -9,7 +9,7 @@
   background-size: 100% auto;
 }
 
-.planets__section {
+/* .planets__section {
     background-image: url(./assets/img/planets-card-background.png);
     width: 1260px;
     height: 480px;
@@ -18,10 +18,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-}
-.planets__section__img {
+} */
+/* .planets__section__img {
     height: auto;
     width: 35%;
-}
+} */
 
 

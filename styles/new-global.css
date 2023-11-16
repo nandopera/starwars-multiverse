@@ -57,8 +57,9 @@ picture > .logo-star-wars {
   display: flex;
   align-items: center;
   justify-content: center;
-  transform: scaleY(1.4);
+  transform: scaleY(1.3);
   perspective: 2000px;
+  
   transform-style: preserve-3d;
 }
 
@@ -73,6 +74,13 @@ li {
   cursor: pointer;
 }
 
+.perspectiva:hover {
+  transform-origin: 50% 100%;
+  transform: rotateX(40deg);
+  color: var(--emphesis-color);
+  transition: 0.3s ease-out;
+}
+
 .nav-link-wars {
   list-style: none;
   color: var(--common-color);
@@ -83,26 +91,15 @@ li {
   color: var(--emphesis-color);
 }
 
-.nav-link-wars:hover {
-  color: var(--emphesis-color);
-  transition: 0.2s;
-}
-
 .nav-link-wars:active {
   color: var(--emphesis-color);
 }
 
-/* ul{
-  transform: scaleY(1.4);
-  perspective: 2000px;
-  transform-style: preserve-3d;
-} */
-
-.perspectiva:hover {
-  transform-origin: 50% 100%;
-  transform: rotateX(35deg);
-  transition: 0.3s;
+.nav-link-wars:hover {
+  color: var(--emphesis-color);
+  transition: 0.3s ease-out;
 }
+
 
         /* --------------------------Menu fim------------------------------ */
 
@@ -148,31 +145,31 @@ main {
   grid-gap: clamp(8px, 1rem, 3vh);
   align-items: center;
   justify-content: center;
-  /* padding: 2rem; */
-  margin-bottom: 2rem;
   border-radius: 2vw;
   background-image: url(../assets/img/personagens-card-background.png);
   background-repeat: no-repeat;
 }
 
 .card-img {
-  width: min(600px, 100%);
+  width: max(350px, 60%);
   /* aspect-ratio: 1/1; */
-  object-fit: contain;
+  /* object-fit: contain; */
   padding: 1rem;
 }
 
 .card-info {
+  align-self: start;
   display: flex;
   flex-direction: column;
   line-height: 1rem;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
-  width: 100%;
-  max-height: 500px;
+  width: auto;
+  height: 1fr;
   background-color: var(--bkg-info);
-  margin: 1rem auto;
-  /* padding: 0 1rem; */
-  border-radius: 2vw;
+  margin: 1rem 2rem 1rem 0;
+  padding-left: 0.5rem;
+  border-radius: 0vw 2vw 2vw 0;
+  border-left: 0.1rem solid var(--emphesis-color);
 }
 
 p {
@@ -184,7 +181,7 @@ p {
 .card-info > p,
 h2,
 h3 {
-  margin: 0.3rem 1rem;
+  /* margin: 0.3rem 1rem; */
 }
 
 .card-info p:last-child {
