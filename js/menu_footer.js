@@ -5,11 +5,11 @@ menu.insertAdjacentHTML(
   "afterbegin",
   `
     <ul class="menu-nav nav-bar">
-        <li class="perspectiva"> <a class="nav-link-wars" href="/index.html">FILMES</a></li>
-        <li class="perspectiva"> <a class="nav-link-wars" href="/pages/personagens.html">PERSONAGENS</a></li>
-        <li class="perspectiva"> <a class="nav-link-wars" href="/pages/planetas.html">PLANETAS</a></li>
-        <li class="perspectiva"> <a class="nav-link-wars" href="/pages/veiculos.html">VEÍCULOS</a></li>
-        <li class="perspectiva"> <a class="nav-link-wars" href="/pages/naves.html">NAVES</a></li>
+        <a class="nav-link-wars" href="/index.html"><li class="perspectiva">FILMES</li></a>
+        <a class="nav-link-wars" href="/pages/personagens.html"><li class="perspectiva">PERSONAGENS</li></a>
+        <a class="nav-link-wars" href="/pages/planetas.html"><li class="perspectiva">PLANETAS</li></a>
+        <a class="nav-link-wars" href="/pages/veiculos.html"><li class="perspectiva"> VEÍCULOS</li></a>
+        <a class="nav-link-wars" href="/pages/naves.html"><li class="perspectiva">NAVES</li></a>
     </ul>
 `
 );
