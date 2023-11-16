@@ -178,12 +178,6 @@ p {
   color: var(--common-color);
 }
 
-.card-info > p,
-h2,
-h3 {
-  /* margin: 0.3rem 1rem; */
-}
-
 .card-info p:last-child {
   margin-bottom: 1rem;
 }
