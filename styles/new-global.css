@@ -55,6 +55,11 @@ picture > .logo-star-wars {
 
 .menu-nav {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: scaleY(1.4);
+  perspective: 2000px;
+  transform-style: preserve-3d;
 }
 
 li {
@@ -68,7 +73,7 @@ li {
   cursor: pointer;
 }
 
-a {
+.nav-link-wars {
   list-style: none;
   color: var(--common-color);
   text-decoration: none;
@@ -78,12 +83,25 @@ a {
   color: var(--emphesis-color);
 }
 
-a:hover {
+.nav-link-wars:hover {
   color: var(--emphesis-color);
   transition: 0.2s;
 }
-a:active {
+
+.nav-link-wars:active {
   color: var(--emphesis-color);
+}
+
+/* ul{
+  transform: scaleY(1.4);
+  perspective: 2000px;
+  transform-style: preserve-3d;
+} */
+
+.perspectiva:hover {
+  transform-origin: 50% 100%;
+  transform: rotateX(35deg);
+  transition: 0.3s;
 }
 
         /* --------------------------Menu fim------------------------------ */
