@@ -5,8 +5,4 @@
 
 #banner {
   background-image: var(--bkg-naves);
-  height: 100vh;
-  background-position: top left;
-  background-repeat: no-repeat;
-  background-size: 100% auto;
 }

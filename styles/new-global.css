@@ -16,6 +16,13 @@ body {
 
 /* --------------------------------Header------------------------------------ */
 
+#banner {
+  height: 100vh;
+  height: 100svh;
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
 
 .menu {
   display: flex;
@@ -203,7 +210,7 @@ p {
   width: 1.5ch;
   height: 0.15rem;
   position: absolute;
-  inset: 1rem 0 0 0;
+  inset: 1.1rem 0 0 0;
   background-color: var(--emphesis-color);
 }
 
