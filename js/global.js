@@ -11,3 +11,9 @@ const navLinks = document
       link.classList.add(`active-el`);
     }
   });
+
+const botao = document.getElementById(`btn-alert`)
+
+function chamarAlerta() {
+  alert(`Que a força esteja com você!`)
+}
